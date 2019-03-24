@@ -7,10 +7,11 @@ Designed to look at impact of tiny house villages on neighborhood where they're 
 
 #### Limitations
 SPD beats have changed repeatedly over the years. Data will be inaccurate (and should raise an exception) if range spans two or more of the following date ranges:
-- < 2007
+- < 2008
 - 2008-2014
 - 2015-2017
 - 2018-2019
+
 See https://data.seattle.gov/Public-Safety/Seattle-Police-Department-Beats/nnxn-434b for more information on beats
 
 If you want to compare something across two or more date ranges, you will need to use crime data by precinct, which will be less granular. This data from 2008 and forward is at https://data.seattle.gov/Public-Safety/Seattle-Crime-Stats-by-Police-Precinct-2008-Presen/3xqu-vnum.
